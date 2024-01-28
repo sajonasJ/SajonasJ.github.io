@@ -1,3 +1,9 @@
+import Exp from "../components/exp";
+import Edu from "../components/edu";
+
 export default function Page() {
-    return <p>Nursing Page</p>;
-  }
+  return <div className="nur-page">Nursing Page
+    <Exp />
+    <Edu />
+  </div>;
+}
